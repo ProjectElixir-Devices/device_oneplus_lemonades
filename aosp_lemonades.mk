@@ -43,4 +43,4 @@ ELIXIR_BUILD_TYPE := OFFICIAL
 BUILD_USERNAME := Itachi
 BUILD_HOSTNAME := Elixir
 
-BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220624.021/8877034:user/release-keys
+BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220905.004/8927612:user/release-keys
