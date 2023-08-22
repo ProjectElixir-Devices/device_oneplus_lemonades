@@ -43,6 +43,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
